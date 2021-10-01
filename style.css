@@ -713,7 +713,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: orangered;
 }
 
 .med-width-whitespace {
@@ -723,7 +723,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: orangered;
 }
 
 h4 {
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: orangered;
 }
 
 .btn-atomic-tangerine {
