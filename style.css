@@ -1040,3 +1040,12 @@ h4 {
         text-align: center;
     }
 }
+
+/* blockquote */
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
