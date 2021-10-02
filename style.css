@@ -555,6 +555,9 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    /*! justify-content: center; */
+    /*! margin-right: auto; */
+    /*! margin-left: auto; */
 }
 
 a[data-lightbox]:hover::before {
@@ -723,6 +726,10 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1em;
 }
 
 h2 {
@@ -757,11 +764,15 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .portfolio-row {
@@ -795,18 +806,29 @@ h4 {
     background-color: #F3976C;
 }
 
+/* new colors */
 .tc-white {
+    color: #5f2008;
+}
+
+#titleColor {
     color: orangered;
 }
 
+#titleTwo {
+    color: white;
+}
+
+/* ./new colors rgba(255, 255, 255, 1)white; #c84709 marron orange */
+
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!
+    background: #c84709;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956;
-    color: #FFFFFF;
+    color: black;
 }
 
 .ltc-white {
