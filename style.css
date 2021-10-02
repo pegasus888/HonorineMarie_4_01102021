@@ -527,6 +527,10 @@ margin-bottom: .5em;
     box-shadow: none;
 }
 
+#message {
+    margin-top: .5em;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
