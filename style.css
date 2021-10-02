@@ -516,8 +516,14 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+/* form margin bottom */
+.form-group {
+margin-bottom: .5em;
+}
+
+/* form color */
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(12, 5, 5, 0.3);
     box-shadow: none;
 }
 
@@ -942,6 +948,8 @@ h4 {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    /* ./page2 navbar */
+
 
     .navbar.row {
         margin-left: 0;
