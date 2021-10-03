@@ -799,7 +799,7 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
+    margin-bottom: 0;
     margin-top: 50px;
 }
 
@@ -1153,6 +1153,15 @@ blockquote p::before {
 blockquote p::after {
     content: '\201D';
 }
+
+/* portfolio */
+.col-sm-6,
+.col-sm-8 {
+padding-right: 4em;
+margin-bottom: 4em;
+}
+/* ./portfolio */
+
 
 /* footer */
 #foot {
