@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -131,8 +130,7 @@ a:hover {
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
+.d-bloc h6 a {
     color: rgba(255, 255, 255, .6);
 }
 
@@ -220,10 +218,10 @@ a:hover {
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
+/* .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
+.l-bloc a .icon-xl, */
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
@@ -726,8 +724,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
-    color: white;
-    font-size: 2rem;
+    color: orangered;
+    font-size: 3rem;
     font-weight: 600;
     margin-bottom: 1em;
 }
@@ -764,9 +762,9 @@ h4 {
 }
 
 .white {
-    color: white;
     font-size: 16px;
     font-weight: 600;
+    color: white;
 }
 
 .portfolio-thumb {
@@ -831,8 +829,12 @@ h4 {
     color: black;
 }
 
+/* a .ltc-white {
+    color: #cccccc;
+} */
+
 .ltc-white {
-    color: #FFFFFF;
+    color: white;
 }
 
 .ltc-white:hover {
