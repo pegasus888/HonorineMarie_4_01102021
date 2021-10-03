@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px 10px;
 }
 
 .bloc-md {
@@ -1084,7 +1084,8 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 40px 0 10px;
+        pdding-bottom: 30px;
     }
     .bloc-sm,
     .bloc-md {
