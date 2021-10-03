@@ -1135,3 +1135,8 @@ blockquote p::before {
 blockquote p::after {
     content: '\201D';
 }
+
+/* footer */
+#foot {
+    text-align: center;
+}
