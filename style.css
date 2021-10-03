@@ -13,7 +13,8 @@ button {
     outline: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
     text-decoration: none;
     cursor: pointer;
 }
@@ -103,7 +104,8 @@ a:hover {
     color: rgba(255, 255, 255, .7);
 }
 
-.d-bloc button:hover {
+.d-bloc button:hover,
+.d-bloc button:focus {
     color: rgba(255, 255, 255, .9);
 }
 
@@ -151,12 +153,30 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
+.d-bloc .a-btn:focus,
+.d-bloc .navbar a:focus,
+.d-bloc .navbar-brand:focus,
+.d-bloc a:focus .icon-sm,
+.d-bloc a:focus .icon-md,
+.d-bloc a:focus .icon-lg,
+.d-bloc a:focus .icon-xl,
+.d-bloc h1 a:focus,
+.d-bloc h2 a:focus,
+.d-bloc h3 a:focus,
+.d-bloc h4 a:focus,
+.d-bloc h5 a:focus,
+.d-bloc h6 a:focus,
+.d-bloc p a:focus {
+    color: rgba(255, 255, 255, 1);
+}
+
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
+.d-bloc .btn-wire:hover,
+.d-bloc .btn-wire:focus {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }
@@ -165,7 +185,8 @@ a:hover {
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover {
+.d-bloc .panel button:hover,
+.d-bloc .panel button:focus {
     color: rgba(0, 0, 0, .7);
 }
 
@@ -181,12 +202,14 @@ a:hover {
     color: rgba(0, 0, 0, .6);
 }
 
-.d-bloc .panel .a-btn:hover {
+.d-bloc .panel .a-btn:hover,
+.d-bloc .panel .a-btn:focus {
     color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover {
+.d-bloc .panel .btn-wire:hover,
+.d-bloc .panel .btn-wire:focus {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
@@ -197,7 +220,9 @@ a:hover {
 }
 
 .d-bloc .panel button:hover,
-.l-bloc button:hover {
+.d-bloc .panel button:focus,
+.l-bloc button:hover,
+.l-bloc button:focus {
     color: rgba(0, 0, 0, .7);
 }
 
@@ -250,14 +275,34 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
+.d-bloc .panel .a-btn:focus,
+.l-bloc .a-btn:focus,
+.l-bloc .navbar a:focus,
+.l-bloc .navbar-brand:focus,
+.l-bloc a:focus .icon-sm,
+.l-bloc a:focus .icon-md,
+.l-bloc a:focus .icon-lg,
+.l-bloc a:focus .icon-xl,
+.l-bloc h1 a:focus,
+.l-bloc h2 a:focus,
+.l-bloc h3 a:focus,
+.l-bloc h4 a:focus,
+.l-bloc h5 a:focus,
+.l-bloc h6 a:focus,
+.l-bloc p a:focus {
+    color: rgba(0, 0, 0, 1);
+}
+
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
+.d-bloc .panel .btn-wire:focus,
 .l-bloc .btn-wire,
-.l-bloc .btn-wire:hover {
+.l-bloc .btn-wire:hover,
+.l-bloc .btn-wire:focus {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
@@ -315,7 +360,6 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    /* mr from -16px to 2em */
     margin-right: 2em;
     float: right;
     z-index: 1;
@@ -502,6 +546,11 @@ button {
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
+/*
+.l-bloc a .icon-md {
+    color: orangered;
+} */
+
 .icon-md {
     font-size: 30px;
 }
@@ -640,6 +689,13 @@ a[data-lightbox]:hover img {
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
+    opacity: 1.0;
+    color: #FFF;
+}
+
+.close-lightbox:focus,
+.next-lightbox:focus,
+.prev-lightbox:focus {
     opacity: 1.0;
     color: #FFF;
 }
@@ -849,20 +905,18 @@ h4 {
     color: #FFFFFF;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
     background: #c27956;
     color: black;
 }
-
-/* a .ltc-white {
-    color: #cccccc;
-} */
 
 .ltc-white {
     color: white;
 }
 
-.ltc-white:hover {
+.ltc-white:hover,
+.ltc-white:focus {
     color: #cccccc;
 }
 
@@ -870,7 +924,8 @@ h4 {
     color: #F3976C;
 }
 
-.ltc-atomic-tangerine:hover {
+.ltc-atomic-tangerine:hover
+.ltc-atomic-tangerine:focus {
     color: #c27956;
 }
 
@@ -1029,7 +1084,8 @@ h4 {
     .navTwoLi {
         margin-left: -25px;
     }
-    .nav > li:hover {
+    .nav > li:hover,
+    .nav > li:focus {
         background: rgba(0, 0, 0, .08);
     }
 
