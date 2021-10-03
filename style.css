@@ -410,6 +410,17 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+
+        /* icons */
+    .icons {
+        /* margin-bottom: 14px; */
+        margin-top: 3em;
+    }
+
+    #icons-p {
+        margin-bottom: 0;
+    }
+    /* ./ icons */
 }
 
 .nav > li > .dropdown a {
@@ -446,7 +457,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .mg-lg {
@@ -757,16 +768,23 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+    margin-top: 3em;
 }
 
 h4 {
     color: #333333;
 }
 
+/* icons */
 .icons {
-    margin-bottom: 14px;
+    /* margin-bottom: 14px; */
     margin-top: 24px;
 }
+
+#icons-p {
+    margin-bottom: 3em;
+}
+/* ./ icons */
 
 .white {
     font-size: 16px;
