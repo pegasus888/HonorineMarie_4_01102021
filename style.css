@@ -131,7 +131,7 @@ a:hover {
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -469,9 +469,16 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
+/* outline */
 button {
-    outline: none;
+    outline: .1rem solid orangered;
 }
+
+#nav-toggle {
+    outline: solid transparent;
+}
+
+/* ./outline */
 
 .btn-rd {
     border-radius: 40px;
@@ -553,9 +560,6 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
-    /*! justify-content: center; */
-    /*! margin-right: auto; */
-    /*! margin-left: auto; */
 }
 
 a[data-lightbox]:hover::before {
@@ -661,7 +665,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -675,6 +678,14 @@ a {
     font-weight: 400;
     color: #575757;
 }
+
+/* h1 */
+h1 {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: orangered;
+}
+/* ./ h1 */
 
 .container {
     max-width: 1000px;
@@ -746,10 +757,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: orangered;
 }
 
 h4 {
