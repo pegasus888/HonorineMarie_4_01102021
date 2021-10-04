@@ -759,7 +759,6 @@ a[data-lightbox]:hover img {
 }
 
 h2,
-h3,
 h4,
 h5,
 h6,
@@ -1228,10 +1227,22 @@ h4 {
 /* blockquote */
 blockquote p::before {
     content: '\201C';
+    color: black;
+    font-weight: 600;
 }
 
 blockquote p::after {
     content: '\201D';
+    color: black;
+    font-weight: 600;
+}
+
+.quote {
+    font-weight: 600;
+}
+
+.figQuote {
+    color: black;
 }
 
 /* portfolio */
