@@ -245,10 +245,10 @@ a:focus {
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
-/* .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
+.l-bloc a .icon-sm,
 .l-bloc a .icon-lg,
-.l-bloc a .icon-xl, */
+.l-bloc a .icon-xl,
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
@@ -832,6 +832,7 @@ p {
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 1em;
+    height: 172px;
 }
 
 h2 {
