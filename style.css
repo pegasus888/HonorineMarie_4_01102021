@@ -478,7 +478,6 @@ a:focus {
         margin-right: 6em;
     }
 
-
     /* icons */
     .icons {
         margin-top: 3em;
@@ -615,6 +614,7 @@ margin-bottom: .5em;
 
 #message {
     margin-top: .5em;
+    width: 397px;
 }
 
 .scrollToTop {
@@ -1233,6 +1233,15 @@ blockquote p::after {
 .col-sm-8 {
 padding-right: 4em;
 margin-bottom: 4em;
+}
+
+.col-sm-6seven {
+    padding-left: 20px;
+}
+
+.col-sm-6contact {
+    padding-top: 2em;
+    padding-left: 4em;
 }
 
 /* footer */
