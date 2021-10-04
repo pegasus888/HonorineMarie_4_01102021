@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400,600,800&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -336,23 +338,30 @@ a:focus {
 }
 
 .navbar-brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    text-decoration: none;
+    font-family: El Messiri;
+    font-weight: 400;
 }
 
 .navbar-brand img {
+    display: inline-block;
     max-height: 200px;
+    padding-right: .4em;
     margin: 0 5px 0 0;
-    display: inline;
 }
 
-.navbar-brand img[src$=svg] {
+/* .navbar-brand img[src$=svg] {
     min-width: 100px;
-}
+} */
 
 .nav-center .navbar-brand img {
     margin: 0;
@@ -367,8 +376,11 @@ a:focus {
 
 .nav > li {
     float: left;
-    margin-top: 4px;
     font-size: 16px;
+}
+
+.navTwoLi {
+    margin-bottom: 0;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -455,9 +467,18 @@ a:focus {
         margin: 10px auto 0;
     }
 
+    .navTwoLi {
+        margin-right: 3em;
+        margin-bottom: 2em;
+    }
+
+    .navbar .nav {
+        margin-right: 6em;
+    }
+
+
         /* icons */
     .icons {
-        /* margin-bottom: 14px; */
         margin-top: 3em;
     }
 
@@ -501,7 +522,6 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    /* margin-bottom: 20px; */
 }
 
 .mg-lg {
@@ -532,7 +552,6 @@ button {
 #nav-toggle {
     outline: solid transparent;
 }
-
 /* ./outline */
 
 .btn-rd {
@@ -545,11 +564,6 @@ button {
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
-
-/*
-.l-bloc a .icon-md {
-    color: orangered;
-} */
 
 .icon-md {
     font-size: 30px;
@@ -833,7 +847,6 @@ h4 {
 
 /* icons */
 .icons {
-    /* margin-bottom: 14px; */
     margin-top: 24px;
 }
 
@@ -898,7 +911,7 @@ h4 {
     color: white;
 }
 
-/* ./new colors rgba(255, 255, 255, 1)white; #c84709 marron orange */
+/* ./new colors  */
 
 .btn-atomic-tangerine {
     background: #c84709;
