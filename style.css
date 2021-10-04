@@ -600,6 +600,11 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+/* Parlons web design p */
+#white {
+    padding-left: 20px;
+}
+
 /* form margin bottom */
 .form-group {
 margin-bottom: .5em;
@@ -610,8 +615,8 @@ margin-bottom: .5em;
     border-color: rgba(12, 5, 5, 0.3);
     box-shadow: none;
 }
-/* form color END */
 
+/* Textarea */
 #message {
     margin-top: .5em;
     width: 397px;
