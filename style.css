@@ -214,8 +214,9 @@ a:focus {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
+
+/* .l-bloc */
+.d-bloc .panel {
     color: rgba(0, 0, 0, .5);
 }
 
