@@ -831,7 +831,6 @@ p {
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 1em;
-    height: 172px;
 }
 
 h2 {
@@ -874,7 +873,7 @@ h4 {
 .white {
     font-size: 16px;
     font-weight: 600;
-    color: white;
+    color: black;
 }
 
 .portfolio-thumb {
