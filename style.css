@@ -527,8 +527,11 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     font-family: el messiri, "helvetica";
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
+    line-height: 1.3;
+    color: #F56200;
+    background-color: #F9F9F9;
 }
 
 .mg-lg {
