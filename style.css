@@ -49,6 +49,11 @@ a:focus {
     padding: 50px 50px 10px;
 }
 
+#letsTalk {
+padding-top: 2em;
+padding-bottom: 2em;
+}
+
 .bloc-md {
     padding: 50px;
 }
@@ -367,7 +372,7 @@ a:focus {
 }
 
 .navbar .nav {
-    padding-top: 2em;
+    padding-top: 2px;
     /*! margin-right: 2em; */
     float: right;
     z-index: 1;
@@ -470,11 +475,7 @@ a:focus {
 
     .navTwoLi {
         margin-right: 3em;
-        margin-bottom: 2em;
-    }
-
-    .navbar .nav {
-        /*! margin-right: 6em; */
+        margin-bottom: .2em;
     }
 
     /* icons */
@@ -490,6 +491,15 @@ a:focus {
         margin-bottom: 0;
     }
     /* icons END */
+
+    #send2 {
+        width: 30%;
+        margin-left: 2em;
+    }
+
+    #send {
+        width: 20%;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -555,7 +565,7 @@ nav .caret {
 
 /* outline */
 button {
-    outline: .1rem solid orangered;
+    outline: .2rem solid orangered;
 }
 
 #nav-toggle {
@@ -826,6 +836,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    text-align: center;
 }
 
 .social {
@@ -878,6 +889,7 @@ h4 {
     font-size: 16px;
     font-weight: 600;
     color: black;
+    margin-top: 1.3em;
 }
 
 .portfolio-thumb {
@@ -933,6 +945,10 @@ h4 {
 .btn-atomic-tangerine {
     background: #c84709;
     color: #FFFFFF;
+    width: 40%;
+    /* margin-left: 20px; */
+    margin-top: 2em;
+    text-align: center;
 }
 
 .btn-atomic-tangerine:hover,
@@ -1067,15 +1083,15 @@ h4 {
     /* page2 navbar */
     #nav2 {
         height: 20px;
-        margin-left: -15px;
+        /* margin-left: -15px; */
         padding-bottom: 10px;
-        padding-right: 15px;
+        /* padding-right: 15px; */
     }
     .navTwo {
         display: block;
         width: 390px;
-        height: 20px;
-        margin-left: -15px;
+        /* height: 20px; */
+        margin-left: 20px;
         padding-left: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -1105,9 +1121,6 @@ h4 {
         padding-top: 10px;
     }
 
-    .navTwoLi {
-        margin-left: -25px;
-    }
     .nav > li:hover,
     .nav > li:focus {
         background: rgba(0, 0, 0, .08);
@@ -1256,7 +1269,7 @@ margin-bottom: 4em;
 }
 
 .col-sm-6seven {
-    padding-left: 20px;
+    padding-left: 2em;
 }
 
 .col-sm-6contact {
