@@ -363,10 +363,6 @@ padding-bottom: 2em;
     margin: 0 5px 0 0;
 }
 
-/* .navbar-brand img[src$=svg] {
-    min-width: 100px;
-} */
-
 .nav-center .navbar-brand img {
     margin: 0;
 }
@@ -430,6 +426,24 @@ padding-bottom: 2em;
     float: right;
     position: relative;
     z-index: 2;
+}
+
+@media (max-width: 362px) {
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    #bloc-1-hero h1 {
+        font-size: 25px;
+    }
+
+    #cta-hero {
+        font-size: 12px;
+    }
+
+    #send {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -1264,7 +1278,7 @@ blockquote p::after {
 /* portfolio */
 .col-sm-6,
 .col-sm-8 {
-padding-right: 4em;
+padding-right: 1em;
 margin-bottom: 4em;
 }
 
